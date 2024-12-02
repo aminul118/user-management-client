@@ -6,7 +6,7 @@ const MainLayouts = () => {
   return (
     <div>
       <Header />
-      <div className="container mx-auto min-h-[calc(100vh-290px)] ">
+      <div className="container mx-auto min-h-[calc(100vh-291px)] ">
         <Outlet />
       </div>
       <Footer />

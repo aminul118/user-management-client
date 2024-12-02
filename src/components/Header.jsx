@@ -1,11 +1,18 @@
+import { Link } from "react-router";
+
 const Header = () => {
   return (
-    <div>
-      <div className="navbar bg-base-100">
+    <div className="bg-base-200">
+      <div className="navbar ">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <Link to={"/"} className=" text-2xl font-semibold">
+            Daisy
+          </Link>
         </div>
         <div className="flex-none">
+          <Link to={"/login"} className="btn">
+            Login
+          </Link>
           <div className="dropdown dropdown-end">
             <div
               tabIndex={0}
